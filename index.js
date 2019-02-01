@@ -15,7 +15,7 @@ function nowServing(katzDeliLine){
 
 function currentLine(line){
   if (line.length > 0){
-  return "The line is currently: 1. " + line.pop() + ", 2. " + line.pop() + ", 3. " + line.pop();
+  return "The line is currently: 1. " + line.shift() + ", 2. " + line.shift() + ", 3. " + line.shift();
   } else {
     return "The line is currently empty."
   }
